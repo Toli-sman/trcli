@@ -1,4 +1,4 @@
-ARG PYTHON_VERSION='3.10.13-slim-bookworm'
+ARG PYTHON_VERSION='3.12-slim-bookworm'
 FROM python:${PYTHON_VERSION}
 
 LABEL description="Docker image with latest TastRail CLI tool"
@@ -24,8 +24,6 @@ RUN apt-get update && \
     gawk \
     curl \
     wget \
-    iproute2 \
-    inetutils-ping \
     git \
     build-essential \
     zlib1g-dev \
@@ -46,9 +44,9 @@ RUN apt-get update && \
     xterm \
     junit \
     bc \
+    vim \
+    nano \
     file \
-    unzip \
-    openssh-server \
     ca-certificates \
     && apt-get -y clean \
     && apt-get -y autoremove --purge \

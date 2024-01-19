@@ -4,10 +4,10 @@ This Docker image provides an environment with the latest TestRail CLI tool (`tr
 
 ## Image Details
 
-- **Image Base:** Python `3.10.13-slim-bookworm`
+- **Image Base:** Python `3.12-slim-bookworm`
 - **Maintainer:** [Tolisman](https://github.com/Toli-sman)
 - **TestRail CLI Version:** 1.8.0
-- **Python Version:** 3.10.13-slim-bookworm
+- **Python Version:** 3.12-slim-bookworm
 - **GitHub Repository:** [trcli](https://github.com/Toli-sman/trcli.git)
 
 ## Getting Started
